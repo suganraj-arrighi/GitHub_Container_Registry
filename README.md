@@ -1,4 +1,4 @@
-# 📦 My Node App - GHCR Demo
+# 📦 GitHub Container Registry - GHCR Demo
 
 This is a simple Node.js application containerized with Docker and published to **GitHub Container Registry (GHCR)**.  
 Ideal for beginners exploring Docker, GitHub Actions, and DevOps workflows.
@@ -29,7 +29,7 @@ git init
 ### 🐳 Build the Docker Image
 
 ```bask
-docker build -t ghcr.io/YOUR_GITHUB_USERNAME/my-node-app:latest .
+docker build -t ghcr.io/YOUR_GITHUB_USERNAME/github_container_registry:latest .
 ```
 
 ### 🔐 Authenticate to GHCR
@@ -41,15 +41,15 @@ echo "YOUR_GITHUB_PAT" | docker login ghcr.io -u YOUR_GITHUB_USERNAME --password
 ### 📤 Push the Image to GHCR
 
 ```
-docker push ghcr.io/YOUR_GITHUB_USERNAME/my-node-app:latest
+docker push ghcr.io/YOUR_GITHUB_USERNAME/github_container_registry:latest
 
 ```
 
 ### 📥 Pull and Run the Image
 
 ```
-docker pull ghcr.io/YOUR_GITHUB_USERNAME/my-node-app:latest
-docker run -p 3000:3000 ghcr.io/YOUR_GITHUB_USERNAME/my-node-app
+docker pull ghcr.io/YOUR_GITHUB_USERNAME/github_container_registry:latest
+docker run -p 3000:3000 ghcr.io/YOUR_GITHUB_USERNAME/github_container_registry
 ```
 
 Visit http://localhost:3000 in your browser 🚀
