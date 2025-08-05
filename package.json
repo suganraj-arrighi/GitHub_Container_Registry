@@ -1,0 +1,24 @@
+{
+  "name": "github_container_registry",
+  "version": "1.0.0",
+  "description": "This project demonstrates how to build, push, and pull Docker images using GitHub Container Registry (GHCR). It includes a simple Node.js application, Dockerfile, and step-by-step instructions—ideal for beginners exploring containerization and GitHub-native DevOps workflows.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suganraj-arrighi/GitHub_Container_Registry.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/suganraj-arrighi/GitHub_Container_Registry/issues"
+  },
+  "homepage": "https://github.com/suganraj-arrighi/GitHub_Container_Registry#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
